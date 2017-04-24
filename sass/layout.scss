@@ -1,0 +1,18 @@
+@import "satch";
+
+html{
+  //make sure fonts are sharp!
+  -webkit-font-smoothing: antialiased;
+}
+
+body{
+  //font default
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  line-height: 1.4em;
+  color: $night;
+
+  //div elements have padding and border included in total w&h
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}

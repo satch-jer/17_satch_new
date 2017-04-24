@@ -1,0 +1,69 @@
+@import "satch";
+
+//basic header styling
+header{
+  font-weight: 600;
+  margin-top: $xl;
+  margin-left: $l;
+  margin-bottom: $xxl;
+
+  div{
+    display: block;
+    vertical-align: center;
+    line-height: 36px;
+  }
+
+  //a element that show logo instead of link text
+  .logo{
+    //set bgi and remove link text
+    display: block;
+    width: 36px;
+    height: 36px;
+    text-decoration: none;
+    text-indent: -9999px;
+    background-image: url(../assets/logo.svg);
+    background-repeat:no-repeat;
+
+    //little space betwoon logo and navigation
+    margin-bottom: $l;
+  }
+}
+
+//container div for dropdown, needed to position dropdown
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-button{
+  text-decoration: line-through;
+  color: $night;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+  background-color: $snow;
+
+  //little space between button and dropdown
+  margin-top: $xs;
+
+  a{
+    padding: $xs;
+    text-decoration: none;
+    display: block;
+    color: $evening;
+    border-top: 1px solid $beton;
+    border-left: 1px solid $beton;
+    border-right: 1px solid $beton;
+  }
+  a:last-child{
+    border-bottom: 1px solid $beton;
+  }
+}
+
+.show{
+  display: block;
+}

@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900");
+header {
+  font-weight: 600;
+  margin-top: 100px;
+  margin-left: 75px;
+  margin-bottom: 200px; }
+  header div {
+    display: block;
+    vertical-align: center;
+    line-height: 36px; }
+  header .logo {
+    display: block;
+    width: 36px;
+    height: 36px;
+    text-decoration: none;
+    text-indent: -9999px;
+    background-image: url(../assets/logo.svg);
+    background-repeat: no-repeat;
+    margin-bottom: 75px; }
+
+.dropdown {
+  position: relative;
+  display: inline-block; }
+
+.dropdown-button {
+  text-decoration: line-through;
+  color: #222222; }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+  background-color: #ffffff;
+  margin-top: 15px; }
+  .dropdown-content a {
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    color: #a9a9a9;
+    border-top: 1px solid #f1f1f1;
+    border-left: 1px solid #f1f1f1;
+    border-right: 1px solid #f1f1f1; }
+  .dropdown-content a:last-child {
+    border-bottom: 1px solid #f1f1f1; }
+
+.show {
+  display: block; }
+
+/*# sourceMappingURL=navigation.css.map */

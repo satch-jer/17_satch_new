@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900");
+.title {
+  margin-left: 75px;
+  margin-bottom: 100px;
+  padding-right: 50px; }
+  .title .prelude {
+    display: block;
+    color: #a9a9a9;
+    margin-bottom: 15px; }
+  .title h1 {
+    font-size: 1.2em;
+    letter-spacing: .3px;
+    line-height: 1.4em; }
+
+.row {
+  width: 100%;
+  margin-bottom: 75px; }
+  .row img {
+    width: 100%;
+    height: 100%; }
+
+.wrapper {
+  width: 100%;
+  position: relative;
+  overflow: hidden; }
+  .wrapper .wrapper-img {
+    transition: all .4s ease; }
+
+.overlay {
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .4s; }
+
+.wrapper:hover .overlay {
+  opacity: 1; }
+
+.wrapper:hover .wrapper-img {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  opacity: .6; }
+
+/*# sourceMappingURL=content.css.map */

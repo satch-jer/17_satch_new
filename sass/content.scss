@@ -5,18 +5,18 @@
   margin-bottom: $xl;
   padding-right: $m;
 
-  .prelude{
-    display: block;
-    color: $evening;
-    margin-bottom: $xs;
-
-  }
   h1{
     //text-transform: uppercase;
     font-size: 1.2em;
     letter-spacing: .3px;
     line-height: 1.4em;
   }
+}
+
+.prelude{
+  display: block;
+  color: $evening;
+  margin-bottom: $xs;
 }
 
 .row{
@@ -29,7 +29,7 @@
   }
 }
 
-//all css for the project images (overlay and animation)
+// == all css for the project images (overlay and animation) ==
 
 .wrapper{
   width: 100%;
@@ -43,7 +43,7 @@
 
 .overlay{
   position: absolute;
-  top: 35%;
+  top: 40%;
   width: 100%;
   text-align: center;
   opacity: 0;
@@ -68,3 +68,25 @@
   opacity: .6;
 }
 
+// == buttons
+.buttons{
+  margin-left: $l;
+  margin-bottom: $xl;
+}
+
+.btn{
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid $night;
+  padding: $xxs 0;
+  color: $night;
+  width: 100px;
+  text-align: center;
+  font-weight: 600;
+  transition: all .4s;
+}
+
+.btn:hover{
+  border: 2px solid $lime;
+  color: $lime;
+}

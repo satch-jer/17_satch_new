@@ -38,6 +38,11 @@ header{
 .dropdown-button{
   text-decoration: line-through;
   color: $night;
+  transition: all .4s;
+}
+
+.dropdown-button:hover{
+  text-decoration: underline;
 }
 
 .dropdown-content{

@@ -68,7 +68,8 @@
   opacity: .6;
 }
 
-// == buttons
+// == buttons ==
+
 .buttons{
   margin-left: $l;
   margin-bottom: $xl;
@@ -89,4 +90,24 @@
 .btn:hover{
   border: 2px solid $lime;
   color: $lime;
+}
+
+// == media queries ==
+// == special styling for every row (pinboard effect) ==
+
+@media screen and (min-width: 600px){
+  //little more padding between every row
+  .row{
+    margin-bottom: $xxl;
+  }
+
+  .row-1{
+    margin-left: $l;
+    width: 60%;
+  }
+
+  .row-2{
+    margin-left: auto;
+    width: 50%;
+  }
 }

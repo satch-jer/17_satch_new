@@ -65,4 +65,16 @@
   border: 2px solid #c0f70c;
   color: #c0f70c; }
 
+@media screen and (min-width: 600px) {
+  .row {
+    margin-bottom: 200px; }
+
+  .row-1 {
+    margin-left: 75px;
+    width: 60%; }
+
+  .row-2 {
+    margin-left: auto;
+    width: 50%; } }
+
 /*# sourceMappingURL=content.css.map */

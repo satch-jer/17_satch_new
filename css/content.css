@@ -24,7 +24,7 @@
   width: 100%;
   position: relative;
   overflow: hidden; }
-  .wrapper .wrapper-img {
+  .wrapper .lazy {
     transition: all .4s ease; }
 
 .overlay {
@@ -38,7 +38,7 @@
 .wrapper:hover .overlay {
   opacity: 1; }
 
-.wrapper:hover .wrapper-img {
+.wrapper:hover .lazy {
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -ms-transform: scale(1.1);

@@ -63,9 +63,15 @@ header{
     border-top: 1px solid $beton;
     border-left: 1px solid $beton;
     border-right: 1px solid $beton;
+    transition: all .4s;
   }
   a:last-child{
     border-bottom: 1px solid $beton;
+  }
+
+  a:hover{
+    color: $night;
+    text-decoration: line-through;
   }
 }
 

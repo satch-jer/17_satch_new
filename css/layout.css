@@ -3,9 +3,10 @@ html {
   -webkit-font-smoothing: antialiased; }
 
 body {
+  display: none;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 15px;
-  line-height: 1.4em;
+  line-height: 1.6em;
   color: #222222;
   box-sizing: border-box;
   -webkit-box-sizing: border-box; }

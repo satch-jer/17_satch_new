@@ -1,6 +1,6 @@
 @import "satch";
 
-.title{
+.title, .paragraph{
   margin-left: $l;
   margin-bottom: $xl;
   padding-right: $m;
@@ -27,6 +27,28 @@
     width: 100%;
     height: 100%;
   }
+}
+
+p{
+  padding-bottom: $s;
+}
+
+.important{
+  font-weight: 600;
+}
+
+//inline link elements
+.link{
+  color: $night;
+  text-decoration: none;
+  border-bottom: 1px solid $night;
+  padding-bottom: 1px;
+  transition: all .4s;
+}
+
+.link:hover{
+  border-bottom: 1px solid transparent;
+  text-decoration: line-through;
 }
 
 // == all css for the project images (overlay and animation) ==
@@ -66,6 +88,86 @@
 
   //litte opacity to image
   opacity: .6;
+}
+
+// == contact page is quite special ==
+
+.contact-wrapper{
+  background-color: $night;
+  color: $snow;
+
+  //black background need some spacing too
+  padding-top: $xl;
+  padding-bottom: $xl;
+  margin-bottom: $xl;
+
+  //margin hack - title on same height as other pages
+  margin-top: -$xl;
+}
+
+form{
+  //same styling as .title & .paragraph
+  margin-left: $l;
+  padding-right: $m;
+
+  p{
+    //little spacing for success or error message
+    padding-top: $s;
+
+    //text bit smaller
+    font-size: .8em;
+  }
+}
+
+textarea{
+  background-color: $night;
+  color: $snow;
+  border: none;
+  display: block;
+  width: 100%;
+  resize: none;
+  caret-color: $snow;
+
+}
+
+textarea::placeholder{
+  color: $evening;
+}
+
+input[type="submit"]{
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid $snow;
+  padding: $xxs 0;
+  color: $snow;
+  width: 100px;
+  text-align: center;
+  font-weight: 600;
+  transition: all .4s;
+  background-color: transparent;
+}
+
+input[type="submit"]:hover{
+  border: 2px solid $lime;
+  color: $lime;
+}
+
+.coordinates{
+  padding-left: $xs;
+}
+
+//no outlines on focus
+*:focus{
+  outline: none;
+}
+
+//error and success messages
+.error{
+  color: $tomato;
+}
+
+.success{
+  color: $lime;
 }
 
 // == buttons ==

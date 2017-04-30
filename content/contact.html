@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>satch | building dreams | by jeroen bartels  </title>
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/layout.css">
+    <link rel="stylesheet" type="text/css" href="../css/navigation.css">
+    <link rel="stylesheet" type="text/css" href="../css/content.css">
+</head>
+
+<body>
+
+<header class="content header" id="header">
+    <div>
+        <a class="logo" href="#">Logo van Satch</a>
+    </div>
+
+    <div role="navigation" class="navigation">
+        <div class="dropdown">
+            <a href="#" class="dropdown-button">Menu</a>
+            <div id="dropdown-content" class="dropdown-content">
+                <a href="../index.html">Projecten</a>
+                <a href="about.html">Over</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main role="main" class="content contact">
+    <div class="contact-wrapper">
+        <div class="form">
+            <div class="title">
+                <span class="prelude">04</span>
+                <h1>Hallo. Waarmee kan ik je helpen?</h1>
+            </div>
+
+            <form method="post" id="ajax-form" action="../php/mail.php">
+                <textarea autofocus name="message" id="message" cols="30" rows="5" placeholder="Ik hoor graag van je. Vergeet wel je gegevens niet achter te laten ;)"></textarea>
+                <input type="submit" name="submit" id="submit" value="Send">
+                <p id="form-messages"></p>
+            </form>
+        </div>
+    </div>
+
+    <div class="paragraph">
+        <span class="prelude">Om de GPS in te stellen:</span>
+        <p class="coordinates">
+            Satch<br>
+            Nijverheidsstraat 37<br>
+            2570 Duffel<br>
+        </p>
+        <span class="prelude">Als je me een berichtje wil sturen:</span>
+        <p class="coordinates">
+            <a href="mailto:jer@satch.cc" class="link">jer@satch.cc</a>
+        </p>
+        <span class="prelude">En ... om me op Twitter te volgen:</span>
+        <p class="coordinates">
+            <a href="https://twitter.com/satch_jer" class="link">@satch_jer</a>
+        </p>
+    </div>
+</main>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="../js/satch.js"></script>
+<script src="../js/navigation.js"></script>
+<script src="../js/contact.js"></script>
+</body>
+
+</html>

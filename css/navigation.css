@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600");
 header {
   font-weight: 600;
   margin-top: 100px;
@@ -17,18 +17,29 @@ header {
     background-image: url(../assets/logo.svg);
     background-repeat: no-repeat;
     margin-bottom: 75px; }
-
+  header .logo:hover {
+    animation-name: turning;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1; }
+@keyframes turning {
+  0% {
+    transform: rotate(0); }
+  20% {
+    transform: rotate(-0.5turn); }
+  100% {
+    transform: rotate(2turn); } }
 .dropdown {
   position: relative;
   display: inline-block; }
 
 .dropdown-button {
-  text-decoration: line-through;
   color: #222222;
-  transition: all .4s; }
+  transition: all .4s;
+  text-decoration: none; }
 
 .dropdown-button:hover {
-  text-decoration: underline; }
+  text-decoration: line-through; }
 
 .dropdown-content {
   display: none;
@@ -54,5 +65,16 @@ header {
 
 .show {
   display: block; }
+
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-top: 4px solid \9;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  margin-left: 5px; }
 
 /*# sourceMappingURL=navigation.css.map */

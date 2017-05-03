@@ -27,6 +27,25 @@ header{
     //little space betwoon logo and navigation
     margin-bottom: $l;
   }
+
+  .logo:hover{
+    animation-name: turning;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+  }
+
+  @keyframes turning {
+    0%{
+      transform: rotate(0);
+    }
+    20%{
+      transform: rotate(-0.5turn);
+    }
+    100%{
+      transform: rotate(2turn);
+    }
+  }
 }
 
 //container div for dropdown, needed to position dropdown
@@ -36,13 +55,13 @@ header{
 }
 
 .dropdown-button{
-  text-decoration: line-through;
   color: $night;
   transition: all .4s;
+  text-decoration: none;
 }
 
 .dropdown-button:hover{
-  text-decoration: underline;
+  text-decoration: line-through;
 }
 
 .dropdown-content{
@@ -77,4 +96,16 @@ header{
 
 .show{
   display: block;
+}
+
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-top: 4px solid \9;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  margin-left: 5px;
 }

@@ -12,7 +12,7 @@
         }
 
         //set recipient mailadres
-        $recipient = 'jer@satch.cc';
+        $recipient = 'satch@iamjer.be';
 
         //set mail subject
         $subject = "Woehoew, nieuw bericht van satch.cc";

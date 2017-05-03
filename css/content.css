@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600");
 .title, .paragraph {
   margin-left: 75px;
   margin-bottom: 100px;
@@ -17,6 +17,13 @@
   width: 100%;
   margin-bottom: 75px; }
   .row img {
+    width: 100%;
+    height: 100%; }
+
+.row-detail {
+  width: 100%;
+  margin-bottom: 50px; }
+  .row-detail img {
     width: 100%;
     height: 100%; }
 
@@ -51,6 +58,9 @@ p {
   text-align: center;
   opacity: 0;
   transition: opacity .4s; }
+  .overlay h2 a {
+    color: #222222;
+    text-decoration: none; }
 
 .wrapper:hover .overlay {
   opacity: 1; }
@@ -61,7 +71,7 @@ p {
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
   transform: scale(1.1);
-  opacity: .6; }
+  opacity: 0.5; }
 
 .contact-wrapper {
   background-color: #222222;
@@ -100,7 +110,9 @@ input[type="submit"] {
   text-align: center;
   font-weight: 600;
   transition: all .4s;
-  background-color: transparent; }
+  background-color: transparent;
+  border-radius: 0;
+  -webkit-appearance: none; }
 
 input[type="submit"]:hover {
   border: 2px solid #c0f70c;
@@ -143,10 +155,18 @@ input[type="submit"]:hover {
 
   .row-1 {
     margin-left: 75px;
-    width: 60%; }
+    width: 40%; }
 
   .row-2 {
     margin-left: auto;
-    width: 50%; } }
+    width: 50%; }
+
+  .row-3 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%; }
+
+  .paragraph {
+    width: 75%; } }
 
 /*# sourceMappingURL=content.css.map */

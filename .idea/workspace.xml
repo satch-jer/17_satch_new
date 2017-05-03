@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5fec143-53dd-487a-9228-28ad396e2aeb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/d2f31c64f53587ce73eb7304b87130ec34798a67/content.scssc" afterPath="$PROJECT_DIR$/.sass-cache/d2f31c64f53587ce73eb7304b87130ec34798a67/content.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/d2f31c64f53587ce73eb7304b87130ec34798a67/navigation.scssc" afterPath="$PROJECT_DIR$/.sass-cache/d2f31c64f53587ce73eb7304b87130ec34798a67/navigation.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/d2f31c64f53587ce73eb7304b87130ec34798a67/satch.scssc" afterPath="$PROJECT_DIR$/.sass-cache/d2f31c64f53587ce73eb7304b87130ec34798a67/satch.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/about.html" afterPath="$PROJECT_DIR$/content/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/contact.html" afterPath="$PROJECT_DIR$/content/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/content.css" afterPath="$PROJECT_DIR$/css/content.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/content.css.map" afterPath="$PROJECT_DIR$/css/content.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/layout.css" afterPath="$PROJECT_DIR$/css/layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/layout.css.map" afterPath="$PROJECT_DIR$/css/layout.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/navigation.css" afterPath="$PROJECT_DIR$/css/navigation.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/navigation.css.map" afterPath="$PROJECT_DIR$/css/navigation.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/satch.css" afterPath="$PROJECT_DIR$/css/satch.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/satch.css.map" afterPath="$PROJECT_DIR$/css/satch.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/navigation.js" afterPath="$PROJECT_DIR$/js/navigation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/mail.php" afterPath="$PROJECT_DIR$/php/mail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/content.scss" afterPath="$PROJECT_DIR$/sass/content.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/navigation.scss" afterPath="$PROJECT_DIR$/sass/navigation.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/satch.scss" afterPath="$PROJECT_DIR$/sass/satch.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/zekerenvastgoed.html" afterPath="$PROJECT_DIR$/content/zekerenvastgoed.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,7 +32,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/content/about.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="519">
@@ -61,11 +42,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="zekerenvastgoed.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="zekerenvastgoed.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/content/zekerenvastgoed.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="519">
-                  <caret line="57" column="208" lean-forward="false" selection-start-line="57" selection-start-column="208" selection-end-line="57" selection-end-column="208" />
+                  <caret line="57" column="201" lean-forward="false" selection-start-line="57" selection-start-column="201" selection-end-line="57" selection-end-column="201" />
                   <folding />
                 </state>
               </provider>
@@ -84,7 +65,7 @@
           <file leaf-file-name="stationary.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/content/stationary.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-36">
+                <state relative-caret-position="315">
                   <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
                   <folding />
                 </state>
@@ -94,7 +75,7 @@
           <file leaf-file-name="masi.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/content/masi.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="519">
+                <state relative-caret-position="855">
                   <caret line="57" column="32" lean-forward="false" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
                   <folding />
                 </state>
@@ -109,7 +90,7 @@
             <entry file="file://$PROJECT_DIR$/js/satch.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="135">
-                  <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+                  <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
@@ -185,8 +166,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sass/satch.scss" />
         <option value="$PROJECT_DIR$/content/masi.html" />
-        <option value="$PROJECT_DIR$/content/zekerenvastgoed.html" />
         <option value="$PROJECT_DIR$/content/about.html" />
+        <option value="$PROJECT_DIR$/content/zekerenvastgoed.html" />
       </list>
     </option>
   </component>
@@ -219,7 +200,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -314,7 +295,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -464,11 +445,12 @@
       <workItem from="1493743269142" duration="249000" />
       <workItem from="1493822447401" duration="3625000" />
       <workItem from="1493829527692" duration="81000" />
+      <workItem from="1493829710757" duration="11000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51240000" />
+    <option name="totallyTimeSpent" value="51251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="146" y="23" width="1516" height="955" extended-state="0" />
@@ -761,7 +743,7 @@
     <entry file="file://$PROJECT_DIR$/js/satch.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -776,7 +758,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/stationary.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36">
+        <state relative-caret-position="315">
           <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
           <folding />
         </state>
@@ -784,16 +766,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/masi.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
+        <state relative-caret-position="855">
           <caret line="57" column="32" lean-forward="false" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/zekerenvastgoed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="57" column="208" lean-forward="false" selection-start-line="57" selection-start-column="208" selection-end-line="57" selection-end-column="208" />
           <folding />
         </state>
       </provider>
@@ -802,6 +776,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="519">
           <caret line="52" column="269" lean-forward="false" selection-start-line="52" selection-start-column="269" selection-end-line="52" selection-end-column="269" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/zekerenvastgoed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="57" column="201" lean-forward="false" selection-start-line="57" selection-start-column="201" selection-end-line="57" selection-end-column="201" />
           <folding />
         </state>
       </provider>

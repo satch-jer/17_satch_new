@@ -1,3 +1,5 @@
+$('body').hide();
+
 $(function () {
     $('body').fadeIn(1200);
 

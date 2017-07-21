@@ -1,55 +1,38 @@
 <?php
 
-require_once '../vendor/phpmailer/phpmailer/PHPMailerAutoload.php';
+if($_SERVER["REQUEST_METHOD"] == "POST"){
+    //get the message
+    $message = strip_tags(trim($_POST["message"]));
 
-//get recipient mailadress
-$message = strip_tags(trim($_POST["message"]));
+    //check data
+    if(empty($message)){
+        http_response_code(400);
+        echo "Goed geprobeerd, maar lege berichten hoef ik niet te lezen.";
+        exit;
+    }
 
-//php mailer object
-$mail = new PHPMailer(true);
+    //set recipient mailadres
+    $recipient = 'satch@iamjer.be';
 
-//smtp debug
-//$mail->SMTPDebug = 3;
-//$mail->Debugoutput = function($str, $level) {echo "debug level $level; message: $str";}; //$mail->Debugoutput = 'echo';
+    //set mail subject
+    $subject = "Woehoew, nieuw bericht van satch.cc";
 
-//use smtp
-$mail->isSMTP();
+    //build email content
+    $email_content = $message;
 
-//smtp hostname
-$mail->Host = "smtp.office365.com";
+    //set email header
+    $email_headers = 'From: Satch.cc <site@satch.cc>';
 
-//host requires authentication to send mail
-$mail->SMTPAuth = true;
-
-//smtp username and password
-$mail->Username = "jer@satch.cc";
-$mail->Password = "11.10Anneleen";
-
-$mail->From = "jer@satch.cc";
-$mail->FromName = "Satch | Jer";
-
-//host requires secure connection
-$mail->SMTPSecure = "tls";
-
-//tcp port to connect to
-$mail->Port = 587;
-
-//send html mail
-$mail->isHTML(true);
-
-//create message
-$mail->Subject = "Woehoe, bericht van satch.cc";
-$mail->Body = "<i>" . $message . "</i>";
-$mail->AltBody = "This is the plain text version of the email content";
-
-//add recipient address
-$mail->addAddress("jer@satch.cc", "Satch | Jer");
-
-if(!$mail->send()) {
-    echo 'Oeps, er ging iets mis. Probeer opnieuw';
-    echo 'Mailer Error: ' . $mail->ErrorInfo;
-} else {
-    echo 'Yeah, bericht verzonden!';
+    //send mail
+    if (mail($recipient, $subject, $email_content, $email_headers)) {
+        http_response_code(200);
+        echo "Bedankt, je hoort snel van me!";
+    }else{
+        http_response_code(500);
+        echo "Oeps, er ging iets mis. Dat gebeurt al eens. Probeer je even opnieuw?";
+    }
+}else{
+    //not a post request
+    http_response_code(403);
+    echo "Oeps, er ging iets mis. Dat gebeurt al eens. Probeer je even opnieuw?";
 }
-
-?>
